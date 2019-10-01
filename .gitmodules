@@ -1,0 +1,3 @@
+[submodule "Tasks/Api Call/Api_Call_Alamofire/Alamofire"]
+	path = Tasks/Api Call/Api_Call_Alamofire/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

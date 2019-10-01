@@ -78,8 +78,7 @@ class ViewController: UIViewController {
              twoOperandsAction{$0 * $1}
         case "÷":
              twoOperandsAction{$0 / $1}
-        default:break
-        
+        default: break
         }
     }
     @IBAction func clearButtonPressed(_ sender: UIButton) {
@@ -94,7 +93,6 @@ class ViewController: UIViewController {
     }
     @IBAction func plusMinusButtonPressed(_ sender: UIButton) {
         currentInput = -currentInput
-        
     }
     @IBAction func percentageButtonPressed(_ sender: UIButton) {
         if firstOperand == 0{
@@ -119,3 +117,4 @@ class ViewController: UIViewController {
         }
     }
 }
+
